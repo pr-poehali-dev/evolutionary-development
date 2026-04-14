@@ -8,25 +8,25 @@ export default function HeroSection() {
 
   const slides = [
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-j46TPXDHzpn3M65wMva3qHPNhwokYn.png",
-      alt: "Группа бегунов в движении",
+      image: "https://cdn.poehali.dev/projects/35d4b4d4-6b62-4fc1-9e0d-f7df353e1fc8/files/5666f04f-066c-42ff-a583-1dc98fdc4837.jpg",
+      alt: "Студия дизайна — рабочее пространство",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oH2K0gw1HEqvYhhbwJrYbmkBrbksyk.png",
-      alt: "Бегунья с эффектом размытия",
+      image: "https://cdn.poehali.dev/projects/35d4b4d4-6b62-4fc1-9e0d-f7df353e1fc8/files/39885489-9ef2-4903-88f5-620d206c8d20.jpg",
+      alt: "Элементы фирменного стиля",
     },
     {
-      image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-DQ2brNc5Vszxllx17YNA6JqGqiHaRm.png",
-      alt: "Бегун во главе группы",
+      image: "https://cdn.poehali.dev/projects/35d4b4d4-6b62-4fc1-9e0d-f7df353e1fc8/files/f2ed07e9-35df-4073-ae92-90a81d241322.jpg",
+      alt: "Процесс создания бренда",
     },
   ]
 
   const navItems = [
     { name: "Главная", href: "#hero" },
-    { name: "Миссия", href: "#mission" },
-    { name: "Сообщество", href: "#community" },
-    { name: "Отзывы", href: "#testimonials" },
-    { name: "Вступить", href: "#join" },
+    { name: "О нас", href: "#mission" },
+    { name: "Проекты", href: "#community" },
+    { name: "Клиенты", href: "#testimonials" },
+    { name: "Контакт", href: "#join" },
   ]
 
   // Navigation handlers
@@ -105,13 +105,13 @@ export default function HeroSection() {
         <div className="text-center text-white max-w-4xl">
           {/* Main Title */}
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-wider mb-4 leading-none">
-            STRIDE
+            ФОРМА
             <br />
-            COLLECTIVE
+            СТУДИЯ
           </h1>
 
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl font-light tracking-wide mb-8 text-gray-200">Беговое сообщество</p>
+          <p className="text-xl md:text-2xl font-light tracking-wide mb-8 text-gray-200">Графический дизайн для крупных брендов</p>
 
           {/* CTA Button - Now using LiquidButton */}
           <LiquidButton
@@ -119,7 +119,7 @@ export default function HeroSection() {
             className="font-semibold text-lg tracking-wide"
             onClick={() => scrollToSection("#join")}
           >
-            Присоединиться
+            Обсудить проект
           </LiquidButton>
         </div>
       </div>
